@@ -165,7 +165,7 @@
 ### 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/greentrace2.0.git
+git clone https://github.com/RizviKazim72/-GreenTrace---Carbon-Footprint-Tracker.git
 cd greentrace2.0
 ```
 
@@ -440,14 +440,15 @@ greentrace2.0/
 │   ├── vite.config.js                # Vite configuration
 │   └── tailwind.config.js            # Tailwind CSS config
 │
-├── docs/                             # Documentation
-│   ├── PROJECT_STRUCTURE.md          # Detailed structure
-│   └── CHAPTER_5_6_7_8.txt          # Report chapters
+├── screenshots/                      # Application Screenshots
+│   ├── architecture.png              # System architecture
+│   ├── LandingPage.jpeg              # Landing page
+│   ├── Dashboard*.jpeg               # Dashboard views
+│   ├── Calculator*.jpeg              # Calculator steps
+│   └── Leaderboard*.jpeg             # Leaderboard view
 │
 └── README.md                         # This file
 ```
-
-For detailed structure, see [PROJECT_STRUCTURE.md](docs/PROJECT_STRUCTURE.md)
 
 ---
 
@@ -612,8 +613,6 @@ CREATE TABLE green_points_transactions (
 - **Compliance Tracking**: ISO 14064, GHG Protocol standards
 - **Social Features**: Company collaboration and challenges
 
-For detailed future scope, see [PROJECT_STRUCTURE.md](docs/PROJECT_STRUCTURE.md#-future-scope)
-
 ---
 
 ## 🤝 Contributing
@@ -631,10 +630,10 @@ Contributions are welcome! Please follow these steps:
 ## 👥 Team
 
 **Project Group:**
-- **Khan Imamuddin** (241423) - [GitHub](https://github.com/username) | [LinkedIn](https://linkedin.com/in/username)
-- **Rizvi Kazim** (241439) - [GitHub](https://github.com/username) | [LinkedIn](https://linkedin.com/in/username)
-- **Sande Samad** (241440) - [GitHub](https://github.com/username) | [LinkedIn](https://linkedin.com/in/username)
-- **Sayed Zayar** (241442) - [GitHub](https://github.com/username) | [LinkedIn](https://linkedin.com/in/username)
+- **Khan Imamuddin** (241423) - [GitHub](https://github.com/khanimamuddin)
+- **Rizvi Kazim** (241439) - [GitHub](https://github.com/RizviKazim72) | [LinkedIn](https://linkedin.com/in/RizviKazim72)
+- **Sande Samad** (241440)
+- **Sayed Zayar** (241442)
 
 **Supervisor:**  
 Dr. Ashfaq Shaikh
@@ -665,8 +664,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Contact
 
 For queries or suggestions, reach out to:
-- **Email**: greentrace.project@gmail.com
-- **Project Link**: [https://github.com/RizviKazim72/greentrace2.0](https://github.com/RizviKazim72/greentrace2.0)
+- **GitHub**: [@RizviKazim72](https://github.com/RizviKazim72)
+- **LinkedIn**: [@RizviKazim72](https://linkedin.com/in/RizviKazim72)
+- **Project Repository**: [GreenTrace - Carbon Footprint Tracker](https://github.com/RizviKazim72/-GreenTrace---Carbon-Footprint-Tracker)
 
 ---
 
