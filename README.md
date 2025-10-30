@@ -138,30 +138,11 @@
 
 ## 🏗️ Architecture
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                        Client Layer                          │
-│  React SPA (Port 5175) - Vite Dev Server + Tailwind CSS    │
-└────────────────────┬────────────────────────────────────────┘
-                     │ HTTP/REST API
-                     │ JSON + JWT Token
-┌────────────────────▼────────────────────────────────────────┐
-│                     Application Layer                        │
-│  Spring Boot REST API (Port 8080) - JWT Authentication     │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐     │
-│  │ Controllers  │  │   Services   │  │ Repositories │     │
-│  └──────────────┘  └──────────────┘  └──────────────┘     │
-└────────────────────┬────────────────────────────────────────┘
-                     │ JDBC/JPA
-                     │ SQL Queries
-┌────────────────────▼────────────────────────────────────────┐
-│                      Database Layer                          │
-│  MySQL 8.0 (Port 3306) - greentrace_db                     │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐     │
-│  │  companies   │  │  emissions   │  │ transactions │     │
-│  └──────────────┘  └──────────────┘  └──────────────┘     │
-└─────────────────────────────────────────────────────────────┘
-```
+<div align="center">
+
+![GreenTrace Architecture](./screenshots/architecture.png)
+
+</div>
 
 **Key Design Patterns:**
 - **MVC Architecture**: Clear separation of concerns
@@ -472,20 +453,94 @@ For detailed structure, see [PROJECT_STRUCTURE.md](docs/PROJECT_STRUCTURE.md)
 
 ## 📸 Screenshots
 
-### Landing Page
-![Landing Page](https://via.placeholder.com/800x400/10b981/ffffff?text=Landing+Page)
+### 🏠 Landing Page
+<div align="center">
+  <img src="./screenshots/LandingPage.jpeg" alt="Landing Page" width="90%">
+</div>
 
-### Dashboard
-![Dashboard](https://via.placeholder.com/800x400/3b82f6/ffffff?text=Dashboard)
+*Welcome page with hero section and call-to-action buttons*
 
-### Carbon Calculator
-![Calculator](https://via.placeholder.com/800x400/8b5cf6/ffffff?text=Calculator)
+---
 
-### Leaderboard
-![Leaderboard](https://via.placeholder.com/800x400/f59e0b/ffffff?text=Leaderboard)
+### 📝 Registration Page
+<div align="center">
+  <img src="./screenshots/RegistrationPage01.jpeg" alt="Registration Page - Step 1" width="45%">
+  <img src="./screenshots/RegistrationPage02.jpeg" alt="Registration Page - Step 2" width="45%">
+</div>
 
-### Points History
-![Points History](https://via.placeholder.com/800x400/ef4444/ffffff?text=Points+History)
+*Multi-step registration form with company details and validation*
+
+---
+
+### 🎯 Features Overview
+<div align="center">
+  <img src="./screenshots/FeaturesPage.jpeg" alt="Features Page" width="90%">
+</div>
+
+*Key features showcase with interactive cards*
+
+---
+
+### 📊 Dashboard - Initial View
+<div align="center">
+  <img src="./screenshots/InitialDashboardPage.jpeg" alt="Initial Dashboard" width="90%">
+</div>
+
+*Clean dashboard for new users with quick action buttons*
+
+---
+
+### 📈 Dashboard - With Data
+<div align="center">
+  <img src="./screenshots/FinalDashboardPage.jpeg" alt="Dashboard with Data" width="90%">
+</div>
+
+*Comprehensive dashboard showing emission stats, green points, and recent calculations*
+
+---
+
+### 🧮 Carbon Calculator - Scope 1
+<div align="center">
+  <img src="./screenshots/CarbonEmissionCalculatorPage.jpeg" alt="Calculator Step 1" width="90%">
+</div>
+
+*Fuel combustion input with fuel type selection and quantity*
+
+---
+
+### ⚡ Carbon Calculator - Scope 2
+<div align="center">
+  <img src="./screenshots/ElectricityInput.jpeg" alt="Calculator Step 2" width="90%">
+</div>
+
+*Electricity consumption input for Scope 2 emissions*
+
+---
+
+### 🚗 Carbon Calculator - Scope 3
+<div align="center">
+  <img src="./screenshots/OthersInput.jpeg" alt="Calculator Step 3" width="90%">
+</div>
+
+*Transportation and waste data input for Scope 3 emissions*
+
+---
+
+### 🎉 Calculation Results
+<div align="center">
+  <img src="./screenshots/FinalResult.jpeg" alt="Calculation Results" width="90%">
+</div>
+
+*Detailed emission breakdown with pie chart and green points earned*
+
+---
+
+### 🏆 Leaderboard
+<div align="center">
+  <img src="./screenshots/LeaderBoardPage.jpeg" alt="Leaderboard" width="90%">
+</div>
+
+*Industry rankings with top companies, medal badges, and filtering options*
 
 ---
 
