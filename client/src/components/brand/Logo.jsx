@@ -1,16 +1,6 @@
 import { memo } from 'react';
 import clsx from 'clsx';
 
-/**
- * GreenTrace Brand Logo Component
- * Custom SVG-based logo with leaf and trace elements
- * 
- * @param {Object} props
- * @param {string} props.className - Additional CSS classes
- * @param {number} props.size - Logo size in pixels (default: 40)
- * @param {boolean} props.withText - Show "GreenTrace" text (default: true)
- * @param {'primary' | 'white' | 'dark'} props.variant - Color variant
- */
 const Logo = memo(({ 
   className, 
   size = 40, 

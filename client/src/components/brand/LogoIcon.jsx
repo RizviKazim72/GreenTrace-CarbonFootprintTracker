@@ -1,15 +1,6 @@
 import { memo } from 'react';
 import clsx from 'clsx';
 
-/**
- * GreenTrace Icon Only Component
- * Used for favicons, small spaces, or standalone icon usage
- * 
- * @param {Object} props
- * @param {string} props.className - Additional CSS classes
- * @param {number} props.size - Icon size in pixels (default: 24)
- * @param {'primary' | 'white' | 'dark'} props.variant - Color variant
- */
 const LogoIcon = memo(({ 
   className, 
   size = 24, 

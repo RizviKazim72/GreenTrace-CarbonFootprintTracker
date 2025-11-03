@@ -10,3 +10,4 @@ const AppLayout = ({ children }) => {
 };
 
 export default AppLayout;
+
